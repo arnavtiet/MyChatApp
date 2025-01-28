@@ -320,12 +320,12 @@ const Register = () => {
 
           {/* Already Registered */}
           <p className="mt-4 text-center">
-            Already registered?{" "}
+            Dont have an account?{" "}
             <span
               className="text-blue-500 cursor-pointer hover:underline"
               onClick={() => navigate("/register")}
             >
-              Login
+              Register Here
             </span>
           </p>
         </div>
